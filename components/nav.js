@@ -4,9 +4,8 @@ import { BsCircleHalf } from "react-icons/bs";
 import { useTheme } from "next-themes";
 
 const links = [
-  { label: "Page 1", href: "/" },
-  { label: "Page 2", href: "/" },
-  { label: "Page 3", href: "/" },
+  { label: "Home", href: "/" },
+  { label: "Schedule", href: "/" },
 ];
 
 export default function Nav() {
@@ -15,15 +14,15 @@ export default function Nav() {
     console.log("Hello World.");
   });
   return (
-    <nav className="dark:text-white">
+    <nav className="dark:text-white font-openSans text-gray-600 font-semibold">
       <ul className="flex flex-wrap sm:justify-between items-start sm:items-center p-8 mt-6 sm:mt-0">
-        <li>Hello</li>
-        <ul className={`mx-auto sm:mx-0 flex flex-row space-x-5`}>
+        <li></li>
+        <ul className={`mx-auto sm:mx-0 flex flex-row space-x-4`}>
           {links.map(({ href, label }) => (
             <li className="self-center" key={`${href}${label}`}>
               <Link href={href}>
                 <a
-                  className={`px-4 py-2 rounded hover:bg-black dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10`}
+                  className={`px-4 py-2 rounded hover:bg-gray-300 hover:bg-opacity-10`}
                 >
                   {label}
                 </a>
