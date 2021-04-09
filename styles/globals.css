@@ -9,6 +9,11 @@
     @apply text-3xl font-poppins font-bold pb-2 pt-4 md:leading-loose;
   }
   p {
-    @apply text-lg font-openSans text-gray-500;
+    @apply text-lg font-openSans text-gray-500 dark:text-gray-300;
   }
+}
+
+::selection {
+  background-color: purple;
+  color: white;
 }
