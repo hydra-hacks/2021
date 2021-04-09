@@ -17,7 +17,13 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
+    "husky": "^6.0.0",
     "postcss": "^8.2.9",
     "tailwindcss": "^2.1.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo git hooks are cool"
+    }
   }
 }
