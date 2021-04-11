@@ -34,11 +34,6 @@ const Sponsors = [
     website: "https://cloud.google.com/",
   },
   {
-    companyName: "JetBrains",
-    logo: "https://www.jetbrains.com/company/brand/img/jetbrains_logo.png",
-    website: "https://www.jetbrains.com/",
-  },
-  {
     companyName: "Wolfram Language",
     logo:
       "https://images.ctfassets.net/tvfg2m04ppj4/6hXgD8JnRAs17SxxQ3oWSN/685a75509f3034b8c48ba60cda4b5dde/wolfram-language-text-logo-copy-1.png?w=800",
@@ -97,6 +92,11 @@ const Sponsors = [
       "https://magoosh.com/wp-content/uploads/2018/07/Magoosh-Logo_purple-525x1151.png",
     website: "https://magoosh.com/",
   },
+  {
+    companyName: "JetBrains",
+    logo: "https://www.jetbrains.com/company/brand/img/jetbrains_logo.png",
+    website: "https://www.jetbrains.com/",
+  },
 ];
 
 export default function Home() {
@@ -109,52 +109,59 @@ export default function Home() {
       <HeadObject />
       <Nav />
       <main className="mx-6 md:mx-14 lg:mx-32 xl:mx-52">
-        <section className="bg-gradient-to-t from-purple-600 to-purple-100 -mx-6 md:-mx-14 lg:-mx-32 xl:-mx-52 pb-24 pt-48 -mt-36">
-          <div className="text-center">
-            <h3 className="font-poppins font-medium text-2xl text-white">
-              June 18-20, 2021
-            </h3>
-            <h1 className="font-poppins font-bold text-gray-100 text-5xl md:text-6xl pb-2 text-shadow-lg">
-              Hydrangea Hacks
-            </h1>
-            <h3 className="font-openSans text-gray-200 text-xl mx-3 md:mx-24">
-              A weekend-long virtual hackathon for students who self-identify as
-              female, femme, or non-binary.
-            </h3>
-          </div>
-          <div className="mx-auto justify-center flex mt-3 space-x-6">
-            <a href="">
-              <button className="text-white border-2 border-white rounded-xl p-1 px-3 font-openSans">
-                Hackers
-              </button>
-            </a>
-            <a href="">
-              <button className="text-white border-2 border-white rounded-xl p-1 px-3 font-openSans">
-                Mentors
-              </button>
-            </a>
+        <section className="md:h-2/4 bg-gradient-to-t from-purple-600 to-purple-100 dark:from-purple-900 dark:to-purple-500 -mx-6 md:-mx-14 lg:-mx-32 xl:-mx-52 pb-24 pt-48 -mt-36">
+          <div className="flex flex-col self-center">
+            <div className="text-center">
+              <h3 className="font-poppins font-medium text-2xl lg:text-3xl text-white">
+                June 18-20, 2021
+              </h3>
+              <h1 className="font-poppins font-bold text-gray-100 text-5xl md:text-6xl lg:text-7xl xl:text-8xl pb-2 text-shadow-lg">
+                Hydrangea Hacks
+              </h1>
+              <h3 className="font-openSans text-gray-200 text-shadow-sm text-xl lg:text-2xl mx-3 md:mx-24">
+                A weekend-long virtual hackathon for students of marginalized
+                genders to promote inclusivity and diversity in the STEM
+                community.
+              </h3>
+            </div>
+            <div className="mx-auto justify-center flex mt-3 space-x-6">
+              <a href="https://forms.gle/Y8NNds94L8k2K6m37">
+                <button className="text-white border-2 lg:text-2xl lg:font-semibold border-white rounded-xl p-1 px-3 font-openSans">
+                  Register
+                </button>
+              </a>
+              {/* <a href="https://forms.gle/QAzHRJNfyU3n5Ks76">
+                <button className="text-white border-2 lg:text-2xl lg:font-semibold border-white rounded-xl p-1 px-3 font-openSans">
+                  Mentors
+                </button>
+              </a> */}
+            </div>
           </div>
         </section>
         <section className="w-full">
-          <h2>
-            about <span className="text-hydrangea">hydrangea hacks</span>
-          </h2>
-          <div className="flex flex-col md:flex-row md:align-top">
-            <p className="w-full md:w-2/3">
-              At Hydrangea Hacks, hundreds of students from all over the world
-              will come together and build awesome projects all while creating a
-              supportive learning community. The event is open to all high
-              school and undergraduate students who self-identify as female,
-              femme, or nonbinary.
-            </p>
-            <Image
-              src="/logo.png"
-              alt="hydrangea petal profile logo"
-              width={200}
-              height={170}
-              layout="fixed"
-              className="w-full md:float-right hidden md:relative absolute"
-            />
+          <div className="flex flex-col md:flex-row md:items-center">
+            <div>
+              <h2>
+                about <span className="text-hydrangea">hydrangea hacks</span>
+              </h2>
+              <p className="w-full text-gray-600 dark:text-gray-300">
+                At Hydrangea Hacks, hundreds of students from all over the world
+                will come together and build awesome projects all while creating
+                a supportive learning community. The event is open to all high
+                school and undergraduate students who self-identify as women
+                (cis and trans) or non-binary individuals.
+              </p>
+            </div>
+            <div>
+              <Image
+                src="/logo.png"
+                alt="hydrangea petal profile logo"
+                width={250}
+                height={250}
+                layout="fixed"
+                className="w-full md:float-right hidden md:relative absolute"
+              />
+            </div>
           </div>
         </section>
         <section>
@@ -227,55 +234,55 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
             <Person
-              src="https://source.unsplash.com/random/200x200"
+              src="https://media-exp1.licdn.com/dms/image/C5603AQH77zXNPZUzxQ/profile-displayphoto-shrink_800_800/0/1612409660920?e=1623888000&v=beta&t=H90GTayCVIcKBtkcgAZg_VLSlKeoTwfHUKXqIOMxquA"
               name="Rebecca Wang"
               role="lead organizer."
               pronouns="she/her"
             />
             <Person
-              src="https://source.unsplash.com/random/200x200"
-              name="Aayushi Kate"
+              src="https://avatars.githubusercontent.com/u/64445373?v=4"
+              name="Ayushi Kate"
               role="marketing."
               pronouns=""
             />
             <Person
-              src="https://source.unsplash.com/random/200x200"
+              src="/logo.png"
               name="Aneeva Murray"
               role="social media."
               pronouns=""
             />
             <Person
-              src="https://source.unsplash.com/random/200x200"
+              src="/logo.png"
               name="Jay Shah"
               role="sponsorships."
               pronouns="he/him"
             />
             <Person
-              src="https://source.unsplash.com/random/200x200"
+              src="https://media-exp1.licdn.com/dms/image/C4D03AQHR-wqiaPDgrA/profile-displayphoto-shrink_800_800/0/1598804290397?e=1623888000&v=beta&t=3xynotzg9_s_mWM2C7uZluofDXYNuddJpwxfautPkRA"
               name="Rajshree Mondal"
               role="outreach."
               pronouns=""
             />
             <Person
-              src="https://source.unsplash.com/random/200x200"
+              src="/logo.png"
               name="Rachel Kurapati"
               role="marketing."
               pronouns=""
             />
             <Person
-              src="https://source.unsplash.com/random/200x200"
+              src="https://media-exp1.licdn.com/dms/image/C5603AQEDf6fcH6N_ig/profile-displayphoto-shrink_800_800/0/1607239316516?e=1623888000&v=beta&t=ZdwcyiPhbQQnp-H8NlKirarnzS4NTzmEWnksAY-Od9k"
               name="Mansi Saini"
               role="design."
               pronouns="she/her"
             />
             <Person
-              src="https://source.unsplash.com/random/200x200"
+              src="/logo.png"
               name="Hayden"
               role="design."
               pronouns="they/them"
             />
             <Person
-              src="https://source.unsplash.com/random/200x200"
+              src="/logo.png"
               name="Ella"
               role="person."
               pronouns="she/her"
@@ -309,7 +316,7 @@ export default function Home() {
         </section>
         <section>
           <h2>sponsors</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 space-y-4">
             {Sponsors.map(({ logo, companyName, website }) => {
               return (
                 <Sponsor

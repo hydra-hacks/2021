@@ -3,9 +3,9 @@ import Head from "next/head";
 export default function HeadObject({ children }) {
   const title = "Hydrangea Hacks";
   const description =
-    "A weekend-long virtual hackathon for students who self-identify as female, femme, or nonbinary.";
+    "A weekend-long virtual hackathon for students of marginalized genders to promote incusivity and diversity in STEM.";
   const keywords =
-    "female, STEM, nonbinary, coding, computer science, hackathon";
+    "female, lgbtq, tech, STEM, nonbinary, coding, computer science, hackathon";
   const author = "Hydrangea Hacks";
   const twitter = "@hydrangeahacks";
   //const image = "/ogimage.png"; // This is your OpenGraph image
