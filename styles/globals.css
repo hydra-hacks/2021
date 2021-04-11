@@ -17,3 +17,7 @@
   background-color: purple;
   color: white;
 }
+
+.hover-scale:hover {
+  transform: scale(1.2);
+}
