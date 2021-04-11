@@ -11,10 +11,10 @@ const links = [
 export default function Nav() {
   const { theme, setTheme } = useTheme();
   useEffect(() => {
-    console.log("Hello World.");
+    console.log("Sign up for Hydrangea Hacks!");
   });
   return (
-    <nav className="dark:text-white font-openSans text-gray-600 font-semibold">
+    <nav className="font-openSans text-white text-shadow-md font-semibold">
       <ul className="flex flex-wrap sm:justify-between items-start sm:items-center p-8 mt-6 sm:mt-0">
         <li></li>
         <ul className={`mx-auto sm:mx-0 flex flex-row space-x-4`}>
@@ -22,7 +22,7 @@ export default function Nav() {
             <li className="self-center" key={`${href}${label}`}>
               <Link href={href}>
                 <a
-                  className={`px-4 py-2 rounded hover:bg-gray-300 hover:bg-opacity-10`}
+                  className={`px-4 py-2 rounded hover:bg-black hover:bg-opacity-10`}
                 >
                   {label}
                 </a>
