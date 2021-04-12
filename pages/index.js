@@ -42,7 +42,7 @@ const Sponsors = [
   {
     companyName: "Framer",
     logo:
-      "http://logovectorseek.com/wp-content/uploads/2020/10/framer-bv-logo-vector.png",
+      "https://cdn.discordapp.com/attachments/819648273999855676/822298039275487292/white-horizontal.jpg",
     website: "https://www.framer.com/",
   },
   {
