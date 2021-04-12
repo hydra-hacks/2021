@@ -315,7 +315,13 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <h2>sponsors</h2>
+          <div className="flex flex-col justify-center">
+            <h2 className="text-center">sponsors</h2>
+            <p className="-mt-1 mb-4 text-center mx-8 md:mx-24 text-gray-500 dark:text-gray-100">
+              Interested in being a sponsor for Hydrangea Hacks? Send us an
+              email at <strong>sponsors@hydrangeahacks.tech.</strong>
+            </p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 space-y-4">
             {Sponsors.map(({ logo, companyName, website }) => {
               return (
