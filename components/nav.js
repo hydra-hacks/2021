@@ -5,7 +5,11 @@ import { useTheme } from "next-themes";
 
 const links = [
   { label: "Home", href: "/" },
-  { label: "Schedule", href: "/" },
+  {
+    label: "Schedule",
+    href:
+      "https://www.notion.so/ellax/14e71c894f294614be9b2b9c973c825b?v=7389ca681ed34bdebddda7f40467cce0",
+  },
 ];
 
 export default function Nav() {
