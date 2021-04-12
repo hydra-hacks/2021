@@ -8,7 +8,7 @@ export default function HeadObject({ children }) {
     "female, lgbtq, tech, STEM, nonbinary, coding, computer science, hackathon";
   const author = "Hydrangea Hacks";
   const twitter = "@hydrangeahacks";
-  //const image = "/ogimage.png"; // This is your OpenGraph image
+  const image = "https://og-image.vercel.app/**Hydrangea**%20Hacks.png?theme=light&md=1&fontSize=150px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg"; 
   return (
     <Head>
       <meta charSet="utf-8" />
@@ -22,7 +22,7 @@ export default function HeadObject({ children }) {
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      {/* <meta property="og:image" content={image} /> */}
+      <meta property="og:image" content={image} />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content={twitter} />
       <meta name="twitter:creator" content={twitter} />
