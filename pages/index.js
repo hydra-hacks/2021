@@ -12,7 +12,8 @@ import Prize from "../components/prize";
 const Sponsors = [
   {
     companyName: "Qoom",
-    logo: "https://www.qoom.io/libs/icons/qoom.svg",
+    logo:
+      "https://cdn.discordapp.com/attachments/819648273999855676/832029984280805417/qoom_2.png",
     website: "https://www.qoom.io/",
   },
   {
@@ -289,7 +290,7 @@ export default function Home() {
             />
           </div>
         </section>
-        <section>
+        {/* <section>
           <h2>
             <span className="text-hydrangea">special</span> guests
           </h2>
@@ -313,7 +314,7 @@ export default function Home() {
               pronouns="she/her"
             />
           </div>
-        </section>
+        </section> */}
         <section>
           <div className="flex flex-col justify-center">
             <h2 className="text-center">sponsors</h2>
@@ -322,7 +323,7 @@ export default function Home() {
               email at <strong>sponsors@hydrangeahacks.tech.</strong>
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 space-y-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 gap-3 xl:gap-5 space-y-4">
             {Sponsors.map(({ logo, companyName, website }) => {
               return (
                 <Sponsor
