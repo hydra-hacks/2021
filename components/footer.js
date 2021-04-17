@@ -6,7 +6,7 @@ export default function Footer() {
       </p>
       <p className="text-center text-sm">
         Fiscally sponsored by Hack+. <br />
-        Nonprofit EIN: 12345678.
+        Nonprofit EIN: 81-1543325.
       </p>
     </div>
   );
