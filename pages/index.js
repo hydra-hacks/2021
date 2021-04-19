@@ -200,6 +200,16 @@ export default function Home() {
               track="ML (Sashido)"
               description="Planning on building an application using Machine Learning? SashiDo is offering a special prize for the most original Image project built with SashiDo and Google's Teachable Machine!"
             />
+            <Prize
+              icon="/coinbag.png"
+              track="finance"
+              description="Build a project that addresses a finance related problem. This could be for students, adults, banks, companies, among others!"
+            />
+            <Prize
+              icon="/blockchain.png"
+              track="blockchain"
+              description="Create a project using blockchain technology. New to blockchain? Attend our blockchain workshop!"
+            />
           </div>
         </section>
         <section>
