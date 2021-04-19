@@ -1,6 +1,7 @@
 import { FiGithub } from "react-icons/fi";
 import { AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
 import { FaRegEnvelopeOpen } from "react-icons/fa";
+import { FiTwitter } from "react-icons/fi";
 
 export default function Socials() {
   return (
