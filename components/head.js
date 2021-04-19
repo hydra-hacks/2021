@@ -8,7 +8,8 @@ export default function HeadObject({ children }) {
     "female, lgbtq, tech, STEM, nonbinary, coding, computer science, hackathon";
   const author = "Hydrangea Hacks";
   const twitter = "@hydrangeahacks";
-  const image = "https://og-image.vercel.app/**Hydrangea**%20Hacks.png?theme=light&md=1&fontSize=150px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg"; 
+  const image =
+    "https://cdn.discordapp.com/attachments/794104267634900994/822298283678367774/hydra-01.jpg";
   return (
     <Head>
       <meta charSet="utf-8" />
@@ -26,7 +27,7 @@ export default function HeadObject({ children }) {
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content={twitter} />
       <meta name="twitter:creator" content={twitter} />
-      <script src='https://analytics.stacc.cc/api/script/l3LtIxiiWld0'></script>
+      <script src="https://analytics.stacc.cc/api/script/l3LtIxiiWld0"></script>
       {children}
     </Head>
   );
