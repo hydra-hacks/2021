@@ -131,11 +131,11 @@ export default function Home() {
                   Register
                 </button>
               </a>
-              {/* <a href="https://forms.gle/QAzHRJNfyU3n5Ks76">
+              <a href="https://forms.gle/QAzHRJNfyU3n5Ks76">
                 <button className="text-white border-2 lg:text-2xl lg:font-semibold border-white rounded-xl p-1 px-3 font-openSans">
                   Mentors
                 </button>
-              </a> */}
+              </a> 
             </div>
           </div>
         </section>
