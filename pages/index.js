@@ -98,6 +98,11 @@ const Sponsors = [
     logo: "https://www.jetbrains.com/company/brand/img/jetbrains_logo.png",
     website: "https://www.jetbrains.com/",
   },
+  {
+    companyName: "gen.xyz",
+    logo: "https://cdn.discordapp.com/attachments/795526714016923699/839037733808242698/xyz-logo-color.png",
+    website: "https://gen.xyz/",
+  },
 ];
 
 export default function Home() {
