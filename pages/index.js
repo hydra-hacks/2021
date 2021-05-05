@@ -95,7 +95,8 @@ const Sponsors = [
   },
   {
     companyName: "JetBrains",
-    logo: "https://www.jetbrains.com/company/brand/img/jetbrains_logo.png",
+    logo:
+      "https://cdn.discordapp.com/attachments/795526714016923699/839234308366925864/jetbrains-variant-4.png",
     website: "https://www.jetbrains.com/",
   },
 ];
@@ -171,42 +172,42 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7">
             <Prize
-              icon="/handshake.png"
+              icon="/handshake.svg"
               track="social good"
               description="Create a hack that addresses social or economic inequality or environmental impact."
             />
             <Prize
-              icon="/book.png"
+              icon="/book.svg"
               track="education"
               description="Create a hack that improves the accessibility of information and resources to students."
             />
             <Prize
-              icon="/key.png"
+              icon="/key.svg"
               track="beginner"
               description="A track for beginners! Must be the first hackathon for all team members. "
             />
             <Prize
-              icon="/heart.png"
+              icon="/heart.svg"
               track="healthcare"
               description="Create a hack that improves the quality, efficiency, or accessibility of healthcare."
             />
             <Prize
-              icon="/web.png"
+              icon="/web.svg"
               track="web (Qoom)"
               description="Use Qoom as a part of your hack for an opportunity to be invited to Qoom Creator Group, a 12-week apprenticeship program!"
             />
             <Prize
-              icon="/brain.png"
+              icon="/brain.svg"
               track="ML (Sashido)"
               description="Planning on building an application using Machine Learning? SashiDo is offering a special prize for the most original Image project built with SashiDo and Google's Teachable Machine!"
             />
             <Prize
-              icon="/coinbag.png"
+              icon="/coinbag.svg"
               track="finance"
               description="Build a project that addresses a finance related problem. This could be for students, adults, banks, companies, among others!"
             />
             <Prize
-              icon="/blockchain.png"
+              icon="/blockchain.svg"
               track="blockchain"
               description="Create a project using blockchain technology. New to blockchain? Attend our blockchain workshop!"
             />
