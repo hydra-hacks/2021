@@ -41,12 +41,6 @@ const Sponsors = [
     website: "https://cloud.google.com/",
   },
   {
-    companyName: "Digital Page",
-    logo:
-      "https://cdn.discordapp.com/attachments/839980411919663134/839980520435482655/logo-coral-w-txt.png",
-    website: "https://digitalpage.org/",
-  },
-  {
     companyName: "Wolfram Language",
     logo:
       "https://images.ctfassets.net/tvfg2m04ppj4/6hXgD8JnRAs17SxxQ3oWSN/685a75509f3034b8c48ba60cda4b5dde/wolfram-language-text-logo-copy-1.png?w=800",
@@ -133,6 +127,12 @@ const Sponsors = [
     companyName: "gen.xyz",
     logo: "https://cdn.discordapp.com/attachments/795526714016923699/839037733808242698/xyz-logo-color.png",
     website: "https://gen.xyz/",
+  },
+  {
+    companyName: "Digital Page",
+    logo:
+      "https://cdn.discordapp.com/attachments/839980411919663134/839980520435482655/logo-coral-w-txt.png",
+    website: "https://digitalpage.org/",
   },
 ];
 
