@@ -25,7 +25,7 @@ const Sponsors = [
   {
     companyName: "Linode",
     logo:
-      "https://cdn.freebiesupply.com/logos/large/2x/linode-1-logo-png-transparent.png",
+      "https://www.drupal.org/files/Linode-Logo-2012-v1-LightBG.png",
     website: "https://www.linode.com/",
   },
   {
