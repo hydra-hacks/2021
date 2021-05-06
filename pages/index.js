@@ -23,6 +23,12 @@ const Sponsors = [
     website: "https://balsamiq.com/",
   },
   {
+    companyName: "Linode",
+    logo:
+      "https://www.drupal.org/files/Linode-Logo-2012-v1-LightBG.png",
+    website: "https://www.linode.com/",
+  },
+  {
     companyName: "Sashido",
     logo:
       "https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/27162/FDedZYhLRraWlTG8tqDP",
@@ -39,6 +45,12 @@ const Sponsors = [
     logo:
       "https://images.ctfassets.net/tvfg2m04ppj4/6hXgD8JnRAs17SxxQ3oWSN/685a75509f3034b8c48ba60cda4b5dde/wolfram-language-text-logo-copy-1.png?w=800",
     website: "https://www.wolframalpha.com/",
+  },
+  {
+    companyName: "Sticker Giant",
+    logo:
+      "https://sg-static-cdn.sgsr.us/data/StickerGiant-Flame-Logo-Email-Sign-Up-Thank-You__5d28c8cae4974.png",
+    website: "https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event",
   },
   {
     companyName: "Framer",
@@ -63,6 +75,18 @@ const Sponsors = [
     logo:
       "https://seeklogo.com/images/D/digital-ocean-logo-FBA954B5C9-seeklogo.com.png",
     website: "https://www.digitalocean.com/",
+  },
+  {
+    companyName: "Postman",
+    logo:
+      "https://i.pinimg.com/originals/6a/9d/0d/6a9d0d462cdc2b0b97e607f32aa124e9.png",
+    website: "https://www.postman.com/",
+  },
+   {
+    companyName: "Github",
+    logo:
+      "https://logos-world.net/wp-content/uploads/2020/11/GitHub-Emblem.png",
+    website: "https://github.com/",
   },
   {
     companyName: "Interview Cake",
@@ -103,6 +127,12 @@ const Sponsors = [
     companyName: "gen.xyz",
     logo: "https://cdn.discordapp.com/attachments/795526714016923699/839037733808242698/xyz-logo-color.png",
     website: "https://gen.xyz/",
+  },
+  {
+    companyName: "Digital Page",
+    logo:
+      "https://cdn.discordapp.com/attachments/839980411919663134/839980520435482655/logo-coral-w-txt.png",
+    website: "https://digitalpage.org/",
   },
 ];
 
