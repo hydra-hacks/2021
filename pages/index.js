@@ -91,7 +91,7 @@ const Sponsors = [
    {
     companyName: "Github",
     logo:
-      "http://pngimg.com/uploads/github/github_PNG40.png",
+      "https://logos-world.net/wp-content/uploads/2020/11/GitHub-Emblem.png",
     website: "https://github.com/",
   },
   {
