@@ -9,6 +9,7 @@ module.exports = {
       },
       colors: {
         hydrangea: "#754DFC",
+        black: "#1f1f1f",
       },
     },
   },
