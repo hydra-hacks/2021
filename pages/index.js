@@ -181,8 +181,7 @@ export default function Home() {
               <p className="w-full text-gray-600 dark:text-gray-300">
                 At Hydrangea Hacks, hundreds of students from all over the world
                 will come together and build awesome projects all while creating
-                a supportive learning community. The event is open to all high
-                school and undergraduate students who self-identify as women
+                a supportive learning community. The event is open to all students ages 13+ who self-identify as women
                 (cis and trans) or non-binary individuals.
               </p>
             </div>
