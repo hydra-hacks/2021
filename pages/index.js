@@ -36,6 +36,11 @@ const Sponsors = [
     website: "https://cloud.google.com/",
   },
   {
+    companyName: "Volare Labs",
+    logo: "https://cdn.discordapp.com/attachments/839980411919663134/844028997582979101/4.png",
+    website: "https://www.volarelabs.io/",
+  },
+  {
     companyName: "Wolfram Language",
     logo: "https://images.ctfassets.net/tvfg2m04ppj4/6hXgD8JnRAs17SxxQ3oWSN/685a75509f3034b8c48ba60cda4b5dde/wolfram-language-text-logo-copy-1.png?w=800",
     website: "https://www.wolframalpha.com/",
@@ -115,6 +120,16 @@ const Sponsors = [
     companyName: "Digital Page",
     logo: "https://cdn.discordapp.com/attachments/839980411919663134/839980520435482655/logo-coral-w-txt.png",
     website: "https://digitalpage.org/",
+  },
+  {
+    companyName: "Gen Z: We are the Future",
+    logo: "https://cdn.discordapp.com/attachments/839980411919663134/844029341142614106/newlogo_1.png",
+    website: "https://www.genzwearethefuture.org/",
+  },
+  {
+    companyName: "Command Tech",
+    logo: "https://cdn.discordapp.com/attachments/820189023384633344/830668235338285057/logo.png",
+    website: "https://commandtech.codes/index.html",
   },
 ];
 
