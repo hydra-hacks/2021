@@ -296,12 +296,6 @@ export default function Home() {
               pronouns=""
             />
             <Person
-              src="/logo.png"
-              name="Jay Shah"
-              role="sponsorships."
-              pronouns="he/him"
-            />
-            <Person
               src="https://media-exp1.licdn.com/dms/image/C4D03AQHR-wqiaPDgrA/profile-displayphoto-shrink_800_800/0/1598804290397?e=1623888000&v=beta&t=3xynotzg9_s_mWM2C7uZluofDXYNuddJpwxfautPkRA"
               name="Rajshree Mondal"
               role="outreach."
@@ -333,7 +327,7 @@ export default function Home() {
             />
           </div>
         </section>
-        {/* <section>
+        <section>
           <h2>
             <span className="text-hydrangea">special</span> guests
           </h2>
@@ -357,7 +351,7 @@ export default function Home() {
               pronouns="she/her"
             />
           </div>
-        </section> */}
+        </section>
         <section>
           <div className="flex flex-col justify-center">
             <h2 className="text-center">sponsors</h2>
