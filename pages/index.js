@@ -32,7 +32,7 @@ const Sponsors = [
   },
   {
     companyName: "Google Cloud",
-    logo: "https://lh3.googleusercontent.com/proxy/Dvyw3mYbIZSZHMM3AoiOPHN8Ah-bGLpgI9nIX5xA9BfeAdD0ol15Z0vUgzxBtpDRWZBaRwJB70agO_k8kF1uMM-vx_6ckd3DP_bKOvAMImmRCGqlu0Rp5j4ApRmmVivS",
+    logo: "https://seeklogo.com/images/G/google-cloud-logo-ADE788217F-seeklogo.com.png",
     website: "https://cloud.google.com/",
   },
   {
@@ -249,8 +249,8 @@ export default function Home() {
             />
             <Prize
               icon="/blockchain.svg"
-              track="blockchain"
-              description="Create a project using blockchain technology. New to blockchain? Attend our blockchain workshop!"
+              track="organizer's choice"
+              description="Organizer's choice. It's a secret! All projects are entered into this track."
             />
           </div>
         </section>
@@ -350,13 +350,13 @@ export default function Home() {
             <Person
               src="https://media-exp1.licdn.com/dms/image/C4D03AQGrVN0EnfwRlw/profile-displayphoto-shrink_200_200/0/1618421279308?e=1628726400&v=beta&t=EY_wr9ggtg4jcnAMPzkl4HK_CuPLyOWVsoCzNGHQayE"
               name="Vivian Tan"
-              role="workshop host."
+              role="panelist."
               pronouns="she/her"
             />
             <Person
               src="https://media-exp1.licdn.com/dms/image/C5603AQGwaAKEnq7IGQ/profile-displayphoto-shrink_200_200/0/1621320161381?e=1628726400&v=beta&t=LsVqO7sYQYVkfhhVGXjocxJUs1q-kyw55mfzu8mw3ck"
               name="Stephanie Su"
-              role="workshop host."
+              role="speaker."
               pronouns="she/her"
             />
             <Person
