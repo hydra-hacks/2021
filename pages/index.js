@@ -107,6 +107,16 @@ const Sponsors = [
     website: "https://magoosh.com/",
   },
   {
+    companyName: "Imagilabs",
+    logo: "https://cdn.shopify.com/s/files/1/0250/5739/4743/files/ImagiLabs_logo_pink_1486x.png?v=1580204419",
+    website: "https://imagilabs.com",
+  },
+  {
+    companyName: "Nirvana soul",
+    logo: "https://static1.squarespace.com/static/5e252c7928d64d4b980759af/t/5f78123b04f4b1678ed3d1af/1621622324577/?format=1500w",
+    website: "https://www.nirvanasoulcoffee.com/",
+  },
+  {
     companyName: "JetBrains",
     logo: "https://cdn.discordapp.com/attachments/795526714016923699/839234308366925864/jetbrains-variant-4.png",
     website: "https://www.jetbrains.com/",
