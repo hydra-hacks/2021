@@ -348,16 +348,28 @@ export default function Home() {
               pronouns="he/him"
             />
             <Person
-              src="https://media-exp1.licdn.com/dms/image/C4E03AQFfr9T1FDuEYA/profile-displayphoto-shrink_800_800/0/1599849972116?e=1623888000&v=beta&t=Atv8r9MN_MAVAydQca9zKk_-DqmDmRYcvISiVZiPVko"
-              name="Shreya Prasad"
-              role="workshop host."
-              pronouns=""
-            />
-            <Person
               src="https://media-exp1.licdn.com/dms/image/C5603AQFT-ASECL1N5A/profile-displayphoto-shrink_800_800/0/1615931098044?e=1623888000&v=beta&t=OJ3hPz9Obottb6BHrdFuBAYY5OeiyN8Z8sCn_gAVZGM"
               name="Vivian Tan"
               role="workshop host."
               pronouns="she/her"
+            />
+            <Person
+              src="https://github.com/stehaniefenhua.png"
+              name="Stephanie Su"
+              role="workshop host."
+              pronouns="she/her"
+            />
+            <Person
+              src="https://github.com/maralihart.png"
+              name="Mara Hart"
+              role="speaker."
+              pronouns=""
+            />
+            <Person
+              src=""
+              name="Erica Hanson"
+              role="speaker."
+              pronouns=""
             />
           </div>
         </section>
