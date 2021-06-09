@@ -287,7 +287,7 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
             <Person
-              src="https://media-exp1.licdn.com/dms/image/C5603AQH77zXNPZUzxQ/profile-displayphoto-shrink_800_800/0/1612409660920?e=1623888000&v=beta&t=H90GTayCVIcKBtkcgAZg_VLSlKeoTwfHUKXqIOMxquA"
+              src="https://media-exp1.licdn.com/dms/image/C5603AQHJrBstJnr-_Q/profile-displayphoto-shrink_200_200/0/1622849675072?e=1628726400&v=beta&t=D7AnoKfOqxo02-SQqWTJ-hYuDprQyUSn0saEI9YJnno"
               name="Rebecca Wang"
               role="lead organizer."
               pronouns="she/her"
@@ -296,25 +296,25 @@ export default function Home() {
               src="https://avatars.githubusercontent.com/u/64445373?v=4"
               name="Ayushi Kate"
               role="marketing."
-              pronouns=""
+              pronouns="she/her"
             />
             <Person
-              src="/logo.png"
+              src="https://media-exp1.licdn.com/dms/image/C4E03AQFyZVyP2ScNXQ/profile-displayphoto-shrink_200_200/0/1609612643081?e=1628726400&v=beta&t=qoUoHu_KGXSISXOvEnqNWiQJ16bzScdvUaCFnIknKqA"
               name="Aneeva Murray"
               role="social media."
-              pronouns=""
+              pronouns="she/her"
             />
             <Person
               src="https://media-exp1.licdn.com/dms/image/C4D03AQHR-wqiaPDgrA/profile-displayphoto-shrink_800_800/0/1598804290397?e=1623888000&v=beta&t=3xynotzg9_s_mWM2C7uZluofDXYNuddJpwxfautPkRA"
               name="Rajshree Mondal"
               role="outreach."
-              pronouns=""
+              pronouns="she/her"
             />
             <Person
               src="/logo.png"
               name="Rachel Kurapati"
               role="marketing."
-              pronouns=""
+              pronouns="she/her"
             />
             <Person
               src="https://media-exp1.licdn.com/dms/image/C5603AQEDf6fcH6N_ig/profile-displayphoto-shrink_800_800/0/1607239316516?e=1623888000&v=beta&t=ZdwcyiPhbQQnp-H8NlKirarnzS4NTzmEWnksAY-Od9k"
@@ -342,21 +342,33 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
             <Person
-              src="https://avatars.githubusercontent.com/u/624760?v=4"
+              src="https://media-exp1.licdn.com/dms/image/C4E03AQGebyWspiK0yw/profile-displayphoto-shrink_200_200/0/1598013722461?e=1628726400&v=beta&t=yinXWHqQwKuuWUHlRr5NjekK73eAACG0j6udbHODpQ4"
               name="Eddie Jaoude"
               role="workshop host."
               pronouns="he/him"
             />
             <Person
-              src="https://media-exp1.licdn.com/dms/image/C4E03AQFfr9T1FDuEYA/profile-displayphoto-shrink_800_800/0/1599849972116?e=1623888000&v=beta&t=Atv8r9MN_MAVAydQca9zKk_-DqmDmRYcvISiVZiPVko"
-              name="Shreya Prasad"
-              role="workshop host."
-              pronouns=""
-            />
-            <Person
-              src="https://media-exp1.licdn.com/dms/image/C5603AQFT-ASECL1N5A/profile-displayphoto-shrink_800_800/0/1615931098044?e=1623888000&v=beta&t=OJ3hPz9Obottb6BHrdFuBAYY5OeiyN8Z8sCn_gAVZGM"
+              src="https://media-exp1.licdn.com/dms/image/C4D03AQGrVN0EnfwRlw/profile-displayphoto-shrink_200_200/0/1618421279308?e=1628726400&v=beta&t=EY_wr9ggtg4jcnAMPzkl4HK_CuPLyOWVsoCzNGHQayE"
               name="Vivian Tan"
               role="workshop host."
+              pronouns="she/her"
+            />
+            <Person
+              src="https://media-exp1.licdn.com/dms/image/C5603AQGwaAKEnq7IGQ/profile-displayphoto-shrink_200_200/0/1621320161381?e=1628726400&v=beta&t=LsVqO7sYQYVkfhhVGXjocxJUs1q-kyw55mfzu8mw3ck"
+              name="Stephanie Su"
+              role="workshop host."
+              pronouns="she/her"
+            />
+            <Person
+              src="https://media-exp1.licdn.com/dms/image/C4E03AQFsxapuFRI-Ag/profile-displayphoto-shrink_200_200/0/1619459528148?e=1628726400&v=beta&t=0c1xr5RE66cSOjAG3METM5o6OZrqf66gbBufcsUKdYE"
+              name="Mara Hart"
+              role="speaker."
+              pronouns="she/her"
+            />
+            <Person
+              src="https://media-exp1.licdn.com/dms/image/C5603AQGn8g9leYFt9w/profile-displayphoto-shrink_200_200/0/1516274257544?e=1628726400&v=beta&t=DWsulgTQpxtXlo9YyK_cxfD7R_jPldx2Gl83REzIlKk"
+              name="Erica Hanson"
+              role="speaker."
               pronouns="she/her"
             />
           </div>
