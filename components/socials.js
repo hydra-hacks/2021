@@ -1,4 +1,8 @@
-import { AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
+import {
+  AiOutlineInstagram,
+  AiOutlineLinkedin,
+  AiOutlineYoutube,
+} from "react-icons/ai";
 import { FaRegEnvelopeOpen } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
 
@@ -11,6 +15,9 @@ export default function Socials() {
         </a>
         <a href="https://www.instagram.com/hydrangeahacks/">
           <AiOutlineInstagram size={30} />
+        </a>
+        <a href="https://www.youtube.com/channel/UC2VlyaDjTF7VF3fNNZn1siA/featured">
+          <AiOutlineYoutube size={30} />
         </a>
         <a href="https://www.linkedin.com/company/hydrangea-hacks">
           <AiOutlineLinkedin size={30} />
