@@ -2,7 +2,7 @@ export default function Person({ src, name, role, pronouns }) {
   return (
     <div className="flex flex-row space-x-3 items-center">
       <div>
-        <img src={src} alt={name} className="rounded-full w-20 h-20" />
+        <img src={src} alt={name} className="rounded-full object-cover w-20 h-20" />
       </div>
       <div>
         <p className="text-xl text-black dark:text-white font-poppins">
