@@ -317,7 +317,7 @@ export default function Home() {
               pronouns="she/her"
             />
             <Person
-              src="https://media-exp1.licdn.com/dms/image/C5603AQEDf6fcH6N_ig/profile-displayphoto-shrink_800_800/0/1607239316516?e=1623888000&v=beta&t=ZdwcyiPhbQQnp-H8NlKirarnzS4NTzmEWnksAY-Od9k"
+              src="https://cdn.discordapp.com/attachments/829568769264451584/858939694418886686/Mansi_Saini.JPG"
               name="Mansi Saini"
               role="design."
               pronouns="she/her"
