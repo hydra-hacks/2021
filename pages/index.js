@@ -305,7 +305,7 @@ export default function Home() {
               pronouns="she/her"
             />
             <Person
-              src="https://media-exp1.licdn.com/dms/image/C4D03AQHR-wqiaPDgrA/profile-displayphoto-shrink_800_800/0/1598804290397?e=1623888000&v=beta&t=3xynotzg9_s_mWM2C7uZluofDXYNuddJpwxfautPkRA"
+              src="https://github.com/rajshree2000.png"
               name="Rajshree Mondal"
               role="outreach."
               pronouns="she/her"
