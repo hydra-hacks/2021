@@ -12,7 +12,7 @@ import Prize from "../components/prize";
 const Sponsors = [
   {
     companyName: "Qoom",
-    logo: "https://cdn.discordapp.com/attachments/819648273999855676/832029984280805417/qoom_2.png",
+    logo: "/sponsors/qoom.webp",
     website: "https://www.qoom.io/",
   },
   {
@@ -42,7 +42,7 @@ const Sponsors = [
   },
   {
     companyName: "Wolfram Language",
-    logo: "https://images.ctfassets.net/tvfg2m04ppj4/6hXgD8JnRAs17SxxQ3oWSN/685a75509f3034b8c48ba60cda4b5dde/wolfram-language-text-logo-copy-1.png?w=800",
+    logo: "/sponsors/wolfram.svg",
     website: "https://www.wolframalpha.com/",
   },
   {
@@ -77,7 +77,7 @@ const Sponsors = [
     website: "https://www.postman.com/",
   },
   {
-    companyName: "Github",
+    companyName: "GitHub",
     logo: "https://logos-world.net/wp-content/uploads/2020/11/GitHub-Emblem.png",
     website: "https://github.com/",
   },
@@ -88,7 +88,7 @@ const Sponsors = [
   },
   {
     companyName: "Replit",
-    logo: "https://cdn.worldvectorlogo.com/logos/replit.svg",
+    logo: "/sponsors/replit.svg",
     website: "https://repl.it/",
   },
   {
@@ -98,7 +98,7 @@ const Sponsors = [
   },
   {
     companyName: "OnePassword",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/1password-logo.svg/1200px-1password-logo.svg.png",
+    logo: "/sponsors/1p.png",
     website: "https://1password.com/",
   },
   {
@@ -153,29 +153,29 @@ export default function Home() {
       <HeadObject />
       <Nav />
       <main className="mx-6 md:mx-14 lg:mx-32 xl:mx-52">
-        <section className="md:h-2/4 bg-gradient-to-t from-purple-600 to-purple-100 dark:from-purple-900 dark:to-purple-500 -mx-6 md:-mx-14 lg:-mx-32 xl:-mx-52 pb-24 pt-48 -mt-36">
+        <section className="pt-48 pb-24 -mx-6 md:h-2/4 bg-gradient-to-t from-purple-600 to-purple-100 dark:from-purple-900 dark:to-purple-500 md:-mx-14 lg:-mx-32 xl:-mx-52 -mt-36">
           <div className="flex flex-col self-center">
             <div className="text-center">
-              <h3 className="font-poppins font-medium text-2xl lg:text-3xl text-white">
+              <h3 className="text-2xl font-medium text-white font-poppins lg:text-3xl">
                 June 18-20, 2021
               </h3>
-              <h1 className="font-poppins font-bold text-gray-100 text-5xl md:text-6xl lg:text-7xl xl:text-8xl pb-2 text-shadow-lg">
+              <h1 className="pb-2 text-5xl font-bold text-gray-100 font-poppins md:text-6xl lg:text-7xl xl:text-8xl text-shadow-lg">
                 Hydrangea Hacks
               </h1>
-              <h3 className="font-openSans text-gray-200 text-shadow-sm text-xl lg:text-2xl mx-3 md:mx-24">
+              <h3 className="mx-3 text-xl text-gray-200 font-openSans text-shadow-sm lg:text-2xl md:mx-24">
                 A weekend-long virtual hackathon for students of marginalized
                 genders to promote inclusivity and diversity in the STEM
                 community.
               </h3>
             </div>
-            <div className="mx-auto justify-center flex mt-3 space-x-6">
+            <div className="flex justify-center mx-auto mt-3 space-x-6">
               <a href="https://forms.gle/Y8NNds94L8k2K6m37">
-                <button className="text-white border-2 lg:text-2xl lg:font-semibold border-white rounded-xl p-1 px-3 font-openSans">
+                <button className="p-1 px-3 text-white border-2 border-white lg:text-2xl lg:font-semibold rounded-xl font-openSans">
                   Register
                 </button>
               </a>
               <a href="https://forms.gle/QAzHRJNfyU3n5Ks76">
-                <button className="text-white border-2 lg:text-2xl lg:font-semibold border-white rounded-xl p-1 px-3 font-openSans">
+                <button className="p-1 px-3 text-white border-2 border-white lg:text-2xl lg:font-semibold rounded-xl font-openSans">
                   Mentors
                 </button>
               </a>
@@ -191,8 +191,9 @@ export default function Home() {
               <p className="w-full text-gray-600 dark:text-gray-300">
                 At Hydrangea Hacks, hundreds of students from all over the world
                 will come together and build awesome projects all while creating
-                a supportive learning community. The event is open to all students ages 13+ who self-identify as women
-                (cis and trans) or non-binary individuals.
+                a supportive learning community. The event is open to all
+                students ages 13+ who self-identify as women (cis and trans) or
+                non-binary individuals.
               </p>
             </div>
             <div>
@@ -202,7 +203,7 @@ export default function Home() {
                 width={250}
                 height={250}
                 layout="fixed"
-                className="w-full md:float-right hidden md:relative absolute"
+                className="absolute hidden w-full md:float-right md:relative"
               />
             </div>
           </div>
@@ -258,7 +259,7 @@ export default function Home() {
           <h2>
             frequently asked <span className="text-hydrangea">questions</span>
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
             <Faq
               question="What is a virtual hackathon?"
               answer="Whether you're just getting started or you've been programming since an early age, virtual hackathons are a great place to learn new skills, build your network, find jobs, and have fun! Our goal is to create a memorable and fun virtual experience for everyone, whether you are an experienced hacker or a first-timer!"
@@ -285,27 +286,27 @@ export default function Home() {
           <h2>
             our <span className="text-hydrangea">team</span>
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
             <Person
-              src="https://media-exp1.licdn.com/dms/image/C5603AQHJrBstJnr-_Q/profile-displayphoto-shrink_200_200/0/1622849675072?e=1628726400&v=beta&t=D7AnoKfOqxo02-SQqWTJ-hYuDprQyUSn0saEI9YJnno"
+              src="/team/rebecca.jpeg"
               name="Rebecca Wang"
               role="lead organizer."
               pronouns="she/her"
             />
             <Person
-              src="https://avatars.githubusercontent.com/u/64445373?v=4"
+              src="/team/ayushi.jpeg"
               name="Ayushi Kate"
               role="marketing."
               pronouns="she/her"
             />
             <Person
-              src="https://media-exp1.licdn.com/dms/image/C4E03AQFyZVyP2ScNXQ/profile-displayphoto-shrink_200_200/0/1609612643081?e=1628726400&v=beta&t=qoUoHu_KGXSISXOvEnqNWiQJ16bzScdvUaCFnIknKqA"
+              src="/team/aneeva.jpeg"
               name="Aneeva Murray"
               role="social media."
               pronouns="she/her"
             />
             <Person
-              src="https://github.com/rajshree2000.png"
+              src="/team/rajshree.jpeg"
               name="Rajshree Mondal"
               role="outreach."
               pronouns="she/her"
@@ -317,7 +318,7 @@ export default function Home() {
               pronouns="she/her"
             />
             <Person
-              src="https://cdn.discordapp.com/attachments/829568769264451584/858939694418886686/Mansi_Saini.JPG"
+              src="/team/mansi.jpeg"
               name="Mansi Saini"
               role="design."
               pronouns="she/her"
@@ -331,7 +332,7 @@ export default function Home() {
             <Person
               src="/logo.png"
               name="Ella"
-              role="blahaj."
+              role="yum."
               pronouns="she/her"
             />
           </div>
@@ -340,33 +341,33 @@ export default function Home() {
           <h2>
             <span className="text-hydrangea">special</span> guests
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
             <Person
-              src="https://media-exp1.licdn.com/dms/image/C4E03AQGebyWspiK0yw/profile-displayphoto-shrink_200_200/0/1598013722461?e=1628726400&v=beta&t=yinXWHqQwKuuWUHlRr5NjekK73eAACG0j6udbHODpQ4"
+              src="/avatars/eddie.jpeg"
               name="Eddie Jaoude"
               role="workshop host."
               pronouns="he/him"
             />
             <Person
-              src="https://media-exp1.licdn.com/dms/image/C4D03AQGrVN0EnfwRlw/profile-displayphoto-shrink_200_200/0/1618421279308?e=1628726400&v=beta&t=EY_wr9ggtg4jcnAMPzkl4HK_CuPLyOWVsoCzNGHQayE"
+              src="/avatars/vivian.jpeg"
               name="Vivian Tan"
               role="panelist."
               pronouns="she/her"
             />
             <Person
-              src="https://media-exp1.licdn.com/dms/image/C5603AQGwaAKEnq7IGQ/profile-displayphoto-shrink_200_200/0/1621320161381?e=1628726400&v=beta&t=LsVqO7sYQYVkfhhVGXjocxJUs1q-kyw55mfzu8mw3ck"
+              src="/avatars/stephanie.jpeg"
               name="Stephanie Su"
               role="speaker."
               pronouns="she/her"
             />
             <Person
-              src="https://media-exp1.licdn.com/dms/image/C4E03AQFsxapuFRI-Ag/profile-displayphoto-shrink_200_200/0/1619459528148?e=1628726400&v=beta&t=0c1xr5RE66cSOjAG3METM5o6OZrqf66gbBufcsUKdYE"
+              src="/avatars/mara.jpeg"
               name="Mara Hart"
               role="speaker."
               pronouns="she/her"
             />
             <Person
-              src="https://media-exp1.licdn.com/dms/image/C5603AQGn8g9leYFt9w/profile-displayphoto-shrink_200_200/0/1516274257544?e=1628726400&v=beta&t=DWsulgTQpxtXlo9YyK_cxfD7R_jPldx2Gl83REzIlKk"
+              src="/avatars/erica.jpeg"
               name="Erica Hanson"
               role="speaker."
               pronouns="she/her"
@@ -376,12 +377,12 @@ export default function Home() {
         <section>
           <div className="flex flex-col justify-center">
             <h2 className="text-center">sponsors</h2>
-            <p className="-mt-1 mb-4 text-center mx-8 md:mx-24 text-gray-500 dark:text-gray-100">
+            <p className="mx-8 mb-4 -mt-1 text-center text-gray-500 md:mx-24 dark:text-gray-100">
               Interested in being a sponsor for Hydrangea Hacks? Send us an
               email at <strong>sponsors@hydrangeahacks.tech.</strong>
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 gap-3 xl:gap-5 space-y-4">
+          <div className="grid grid-cols-1 gap-3 space-y-4 md:grid-cols-3 xl:grid-cols-5 xl:gap-5">
             {Sponsors.map(({ logo, companyName, website }) => {
               return (
                 <Sponsor
