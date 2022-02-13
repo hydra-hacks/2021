@@ -19,7 +19,7 @@ export default function HeadObject({ children }) {
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
       <meta name="author" content={author} />
-      <meta property="og:url" content="hydrangeahacks.tech" />
+      <meta property="og:url" content="hydrahacks.org" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />

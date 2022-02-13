@@ -379,7 +379,7 @@ export default function Home() {
             <h2 className="text-center">sponsors</h2>
             <p className="mx-8 mb-4 -mt-1 text-center text-gray-500 md:mx-24 dark:text-gray-100">
               Interested in being a sponsor for Hydrangea Hacks? Send us an
-              email at <strong>sponsors@hydrangeahacks.tech.</strong>
+              email at <strong>hello@hydrahacks.org.</strong>
             </p>
           </div>
           <div className="grid grid-cols-1 gap-3 space-y-4 md:grid-cols-3 xl:grid-cols-5 xl:gap-5">

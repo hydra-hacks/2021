@@ -9,7 +9,7 @@ import { FiTwitter } from "react-icons/fi";
 export default function Socials() {
   return (
     <div>
-      <div className="flex flex-rows space-x-4 justify-center">
+      <div className="flex justify-center space-x-4 flex-rows">
         <a href="https://twitter.com/HacksHydrangea">
           <FiTwitter size={30} />
         </a>
@@ -22,7 +22,7 @@ export default function Socials() {
         <a href="https://www.linkedin.com/company/hydrangea-hacks">
           <AiOutlineLinkedin size={30} />
         </a>
-        <a href="mailto:sponsors@hydrangeahacks.tech">
+        <a href="mailto:helo@hydrahacks.org">
           <FaRegEnvelopeOpen size={30} />
         </a>
       </div>
