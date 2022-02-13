@@ -1,5 +1,5 @@
 {
-  "name": "next-tailwind-starter",
+  "name": "hydrangea-hacks-2021",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "11.0.1",
+    "next": "^11.1.4",
     "next-themes": "^0.0.15",
     "react": "17.0.2",
     "react-dom": "17.0.2",
